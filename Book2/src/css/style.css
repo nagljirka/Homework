@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1360px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header {
+    padding-top: 125px;
+    padding-bottom: 225px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.main-image {
+    width: 50%;
+}
+
+.main-text {
+    width: 50%;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.price {
+    display: block;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 20px 64px;
+    border-color: #4572d7;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 40px;
+
+}
+
+.blue {
+    background-color: #4572d7;
+    color: #fff;
+}
+
+.white {
+    background-color: #fff;
+    color: #4572d7;
+}
+
+
+.shipping {
+    padding: 82px 0;
+    background-color: #f2f2f2;
+}
+
+.shipp-headline {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 96px;
+}
+
+.shipp-wrap {
+    display: flex;
+}
+
+.shipp-item {
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.shipp-item p {
+    display: block;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.shipp-item img {
+    margin-bottom: 22px;
+    display: block;
+    
+}
+
+.shipp-obr {
+    display: inline-block;
+    align-items: center;
+    
+
+}
+
+.people {
+    padding-top: 87px;
+    padding-bottom: 110px;
+}
+
+.people-headline {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 72px;
+    color: #333333;
+
+}
+
+.people-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.people-block {
+    width: 25%;
+    margin-bottom: 38px;
+}
+
+.people-block img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
